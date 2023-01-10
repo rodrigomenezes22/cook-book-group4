@@ -83,3 +83,8 @@
   font-weight: 400;
   font-size: 2rem;
 }
+
+.img-recipe {
+  height: 300px;
+  width: 500px;
+}
