@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29.25 29.25">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #61a5a0;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="Icon_ionic-md-time" data-name="Icon ionic-md-time">
+      <path id="Path_1" data-name="Path 1" class="cls-1" d="m14.61,0C6.53,0,0,6.56,0,14.64c0,8.08,6.56,14.62,14.64,14.61,8.07,0,14.61-6.55,14.61-14.62C29.25,6.55,22.71,0,14.64,0c0,0-.02,0-.02,0Zm.01,26.33c-6.46,0-11.7-5.24-11.7-11.7S8.16,2.93,14.63,2.93s11.7,5.24,11.7,11.7-5.24,11.7-11.7,11.7h0Z"/>
+      <path id="Path_2" data-name="Path 2" class="cls-1" d="m15.36,7.31h-2.19v8.77l7.68,4.6,1.1-1.8-6.58-3.9v-7.68Z"/>
+    </g>
+  </g>
+</svg>

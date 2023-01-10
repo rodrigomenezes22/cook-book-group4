@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27.01 22.5">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #61a5a0;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <path id="Icon_ionic-ios-share-alt" data-name="Icon ionic-ios-share-alt" class="cls-1" d="m26.76,9.45L16.84.17c-.1-.11-.24-.17-.39-.17-.31.01-.7.23-.7.56v4.66c0,.14-.11.27-.25.29C5.63,7.02,1.48,14.4,0,22.07c-.06.3.35.58.54.34,3.6-4.53,7.98-7.5,14.91-7.55.17.02.3.17.3.34v4.57c.03.33.32.57.65.54.14-.01.27-.07.37-.17l9.99-9.44c.16-.15.25-.37.25-.59,0-.24-.08-.48-.25-.65Z"/>
+  </g>
+</svg>
