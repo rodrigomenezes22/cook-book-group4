@@ -7,6 +7,7 @@
 .fonts-logo-titles {
   font-family: "Ultra", serif;
 }
+/* section2*/
 :root {
   --bs-success-head: #2c9463;
   --bs-success-text: #175f3e;
@@ -24,6 +25,7 @@
 
 .card-img-top {
   transition: 0.5s ease;
+  height: 250px;
   backface-visibility: hidden;
 }
 .middle {
@@ -51,4 +53,33 @@
   font-family: "Roboto", sans-serif;
   font-weight: bolder;
   font-size: larger;
+}
+/* nav*/
+.bg-secondary {
+  background-color: #61a5a0 !important;
+}
+
+.navbar-brand {
+  font-family: "Ultra", serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.nav-item {
+  text-transform: uppercase;
+}
+
+#hero {
+  background: url(./images/food-blog-bg.jpeg);
+  mask-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 45vh;
+}
+
+#hero h1 {
+  color: white;
+  font-family: "Ultra", serif;
+  font-weight: 400;
+  font-size: 2rem;
 }

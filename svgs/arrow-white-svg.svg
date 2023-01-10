@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27 27">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="Icon_feather-arrow-right-circle" data-name="Icon feather-arrow-right-circle">
+      <path id="Path_3" data-name="Path 3" class="cls-1" d="m25.5,13.5c0,6.63-5.37,12-12,12S1.5,20.13,1.5,13.5,6.87,1.5,13.5,1.5s12,5.37,12,12Z"/>
+      <path id="Path_4" data-name="Path 4" class="cls-1" d="m13.5,18.3l4.8-4.8-4.8-4.8"/>
+      <path id="Path_5" data-name="Path 5" class="cls-1" d="m8.7,13.5h9.6"/>
+    </g>
+  </g>
+</svg>
