@@ -7,3 +7,48 @@
 .fonts-logo-titles {
   font-family: "Ultra", serif;
 }
+:root {
+  --bs-success-head: #2c9463;
+  --bs-success-text: #175f3e;
+}
+.section2Color {
+  color: var(--bs-success-head);
+}
+.section2p {
+  color: var(--bs-success-text);
+  font-weight: 500;
+}
+.section2Margin {
+  margin: 30px 310px;
+}
+
+.card-img-top {
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 38%;
+  left: 31%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.card:hover .image {
+  opacity: 0.3;
+}
+
+.card:hover .middle {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.text {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+  font-size: larger;
+}
