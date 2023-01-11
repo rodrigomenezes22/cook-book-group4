@@ -9,8 +9,8 @@
 }
 /* section2*/
 :root {
-  --bs-success-head: #2c9463;
-  --bs-success-text: #175f3e;
+  --bs-success-head: #61a5a0;
+  --bs-success-text: #61a5a0;
 }
 .section2Color {
   color: var(--bs-success-head);
@@ -99,6 +99,7 @@ aside .nav-item a:active {
 }
 
 #header.is-scrolled {
+  z-index: 99;
   position: fixed;
   top: -60px;
   left: 0;
