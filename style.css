@@ -39,6 +39,10 @@
   text-align: center;
 }
 
+.card {
+  box-shadow: 1px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
 .card:hover .image {
   opacity: 0.3;
 }
@@ -67,6 +71,51 @@
 
 .nav-item {
   text-transform: uppercase;
+}
+
+aside .nav-item a {
+  display: flex;
+  align-items: center;
+  color: #61a5a0;
+}
+
+aside .nav-item a.active {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  background: #61a5a0;
+}
+
+aside .nav-item a:hover,
+aside .nav-item a:active {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  background: #61a5a0;
+}
+
+#header {
+  position: relative;
+}
+
+#header.is-scrolled {
+  position: fixed;
+  top: -60px;
+  left: 0;
+  width: 100%;
+  box-shadow: 1px 3px 15px rgba(0, 0, 0, 0.2);
+  animation-name: navbar-slide;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes navbar-slide {
+  from {
+    top: -60px;
+  }
+  to {
+    top: 0px;
+  }
 }
 
 #hero {
