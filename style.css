@@ -154,8 +154,7 @@ aside .nav-item a:active {
   }
   .card {
     display: flex;
-    margin-left: 45px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
   #hero h1 {
     color: white;
@@ -164,7 +163,7 @@ aside .nav-item a:active {
     font-size: 1.25rem;
   }
 }
-@media (max-width: 820px) {
+@media (max-width: 1024px) {
   .section2Margin {
     margin: 20px 100px;
   }
@@ -179,55 +178,71 @@ aside .nav-item a:active {
     font-weight: 400;
     font-size: 2rem;
   }
+
+  .card {
+    margin-bottom: 20px;
+  }
 }
-.footer{
+
+@media only screen and (max-width: 767px) {
+  .h2 {
+    text-align: center;
+  }
+}
+.footer {
   width: 100%;
-  padding: 20px 15%;
+  padding: 3rem;
   background: #333;
   color: #efefef;
   display: flex;
 }
-.footer div{
+.footer div {
   text-align: center;
 }
-.col-2{
+.col-2 {
   flex-grow: 2;
 }
-.footer div h3{
+.footer div h3 {
   font-weight: 300;
   margin-bottom: 30px;
   letter-spacing: 1px;
 }
-.col-1 a{
+.usefull-links a {
   display: block;
   text-decoration: none;
   color: #efefef;
   margin-bottom: 10px;
 }
-form input{
-  width: 400px;
+form input {
+  width: 90%;
   height: 45;
   border-radius: 4px;
   text-align: center;
   margin-top: 20px;
   margin-bottom: 40px;
+  padding: 0.5rem;
   outline: none;
   border: none;
 }
-form button{
+form button {
   background: transparent;
   border: 2px solid #efefef;
   color: #efefef;
   border-radius: 30px;
-  padding: 1opx 30px;
+  padding: 10px 30px;
   font-size: 15px;
   cursor: pointer;
 }
-.social-icons{
+.social-icons {
   margin-top: 30px;
 }
-.social-icons i{
+.social-icons i {
   font-size: 22px;
   margin: 10px;
   cursor: pointer;
+}
+
+.btn-success {
+  background-color: #61a5a0;
+  border: 0px;
 }
