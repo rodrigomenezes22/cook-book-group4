@@ -172,6 +172,11 @@ aside .nav-item a:active {
   .img-adv {
     display: none;
   }
+
+  .section2p {
+    font-weight: 400;
+    text-align: justify;
+  }
 }
 @media (max-width: 1024px) {
   .section2Margin {
