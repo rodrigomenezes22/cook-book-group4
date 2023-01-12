@@ -162,6 +162,16 @@ aside .nav-item a:active {
     font-weight: 400;
     font-size: 1.25rem;
   }
+
+  #navigation-sidebar {
+    display: none;
+  }
+  .h2 {
+    font-size: small;
+  }
+  .img-adv {
+    display: none;
+  }
 }
 @media (max-width: 1024px) {
   .section2Margin {
@@ -176,7 +186,7 @@ aside .nav-item a:active {
     color: white;
     font-family: "Ultra", serif;
     font-weight: 400;
-    font-size: 2rem;
+    font-size: 1.25rem;
   }
 
   .card {
