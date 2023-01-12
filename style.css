@@ -135,10 +135,48 @@ aside .nav-item a:active {
 }
 
 .img-recipe {
-  height: 300px;
+  height: 400px;
   width: 500px;
 }
 
 .img-adv {
   margin-top: 80%;
+}
+.share_card {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+/*-- for Mobile version --*/
+@media (max-width: 600px) {
+  .section2Margin {
+    margin: 20px 45px;
+  }
+  .card {
+    display: flex;
+    margin-left: 45px;
+    margin-bottom: 10px;
+  }
+  #hero h1 {
+    color: white;
+    font-family: "Ultra", serif;
+    font-weight: 400;
+    font-size: 1.25rem;
+  }
+}
+@media (max-width: 820px) {
+  .section2Margin {
+    margin: 20px 100px;
+  }
+  .d-sm-flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #hero h1 {
+    color: white;
+    font-family: "Ultra", serif;
+    font-weight: 400;
+    font-size: 2rem;
+  }
 }
