@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -71,13 +72,13 @@
         <div class="row">
           <h2 class="h2 section2Color fonts-logo-titles">Latest Recipes</h2>
         </div>
-        <div class="row">
+        <div class="row d-flex justify-content-center">
           <!-- Col 1 starts -->
-          <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="col-lg-3 col-md-6 col-sm-10 col-xs-12">
             <div class="card">
               <img
                 src="./images/feijoada-small.jpg"
-                class="card-img-top"
+                class="img-fluid"
                 alt="..."
               />
               <div class="middle">
@@ -89,9 +90,7 @@
                   style="font-size: small"
                 >
                   Brazilian Feijoada is a black bean and pork stew that is often
-                  served with farofa, toasted cassava flour. **Since we're using
-                  dried beans, you will need to soak them overnight before
-                  cooking the stew. **
+                  served with farofa, toasted cassava flour. 
                 </p>
               </div>
               <div class="container text-center">
@@ -132,10 +131,10 @@
             </div>
           </div>
           <!-- col 2 starts -->
-          <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="col-lg-3 col-md-6 col-sm-10 col-xs-12">
             <!--card2-->
             <div class="card">
-              <img src="./images/kibbeh.jpg" class="card-img-top" alt="..." />
+              <img src="./images/kibbeh-small.jpg" class="img-fluid" alt="..." />
               <div class="middle">
                 <div class="text">Lebanese Kibbeh</div>
               </div>
@@ -186,10 +185,10 @@
             </div>
           </div>
           <!-- Col 3 starts -->
-          <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="col-lg-3 col-md-6 col-sm-10 col-xs-12">
             <!--card3-->
             <div class="card">
-              <img src="./images/pizza.jpeg" class="card-img-top" alt="..." />
+              <img src="./images/kibbeh-small.jpg" class="img-fluid" alt="..." />
               <div class="middle">
                 <div class="text">Pizza Margarirra</div>
               </div>
@@ -199,8 +198,7 @@
                   style="font-size: small"
                 >
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Consectetur magni rerum neque cumque repudiandae hic unde
-                  expedita fugit modi labore?
+                  Consectetur magni rerum neque cumque repudiandae.
                 </p>
               </div>
               <div class="container text-center">
@@ -241,10 +239,10 @@
             </div>
           </div>
           <!-- Col 4 starts -->
-          <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="col-lg-3 col-md-6 col-sm-10 col-xs-12">
             <!--card4-->
             <div class="card">
-              <img src="./images/pizza.jpeg" class="card-img-top" alt="..." />
+              <img src="./images/kibbeh-small.jpg" class="img-fluid" alt="..." />
               <div class="middle">
                 <div class="text">Pizza Margarirra</div>
               </div>
@@ -254,8 +252,7 @@
                   style="font-size: small"
                 >
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Consectetur magni rerum neque cumque repudiandae hic unde
-                  expedita fugit modi labore?
+                  Consectetur magni rerum neque cumque repudiandae.
                 </p>
               </div>
               <div class="container text-center">
@@ -323,31 +320,37 @@
       </div>
     </section>
     <div class="footer">
-      <div class="col-1">
-        <h3>HUSEFULL LINKS</h3>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
-        <a href="#">Blog</a>
-        <a href="#">Contact</a>
-      </div>
-
-      <div class="col-2">
-        <h3>NEWSLETTER</h3>
-        <form>
-          <input type="email" placeholder="Your Email Address" required>
-          <br>
-          <button type="submit">SUBSCRIBE NOW</button>
-        </form>
-      </div>
-      <div class="col-3">
-        <h3>CONTACT</h3>
-        <p>123, XYZ Road, BBS 3<br>Berlin, Berlin, DE</p>
-        <div class= "social-icons">
-          <i class="fa-brands fa-facebook"></i>
-          <i class="fa-brands fa-twitter"></i>
-          <i class="fa-brands fa-instagram"></i>
-        <div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-sm-12 usefull-links">
+            <h3>HUSEFULL LINKS</h3>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact</a>
+          </div>
+    
+          <div class="col-lg-4 col-sm-12">
+            <h3>NEWSLETTER</h3>
+            <form>
+              <input type="email" placeholder="Your Email Address" required>
+              <br>
+              <button type="submit">SUBSCRIBE NOW</button>
+            </form>
+          </div>
+          <div class="col-lg-4 col-sm-12">
+            <h3>CONTACT</h3>
+            <p>123, XYZ Road, BBS 3<br>Berlin, Berlin, DE</p>
+            <div class= "social-icons">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-instagram"></i>
+            <div>
+            </div>
         </div>
+      </div> 
+    </div>
+
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
