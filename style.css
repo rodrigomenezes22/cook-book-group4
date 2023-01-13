@@ -57,6 +57,7 @@
   font-family: "Roboto", sans-serif;
   font-weight: bolder;
   font-size: larger;
+  text-shadow: 1px 3px 5px rgba(0, 0, 0, 0.8);
 }
 /* nav*/
 .bg-secondary {
