@@ -95,6 +95,10 @@ aside .nav-item a:active {
   background: #61a5a0;
 }
 
+.is-text-green {
+  color: #61a5a0;
+}
+
 #header {
   position: relative;
 }
