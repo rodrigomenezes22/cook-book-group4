@@ -252,7 +252,16 @@ form button {
   padding: 10px 30px;
   font-size: 15px;
   cursor: pointer;
+  transition: background 0.7s, color 1s;
 }
+
+form button:hover,
+form button:active,
+form button:focus {
+  background: white;
+  color: #61a5a0;
+}
+
 .social-icons {
   margin-top: 30px;
 }
@@ -265,4 +274,10 @@ form button {
 .btn-success {
   background-color: #61a5a0;
   border: 0px;
+}
+
+#team .img-fluid {
+  padding: 0.5rem;
+  border-radius: 5px;
+  box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.2);
 }
