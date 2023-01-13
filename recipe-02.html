@@ -59,12 +59,9 @@
         </div>
       </nav>
     </header>
-    <section
-    id="hero"
-    class="d-sm-flex justify-content-center align-items-center"
-  >
-    <h1>Welcome to our Recipe Blog</h1>
-  </section>
+    <section id="hero" class="d-flex justify-content-center align-items-center">
+      <h1>Welcome to our Recipe Blog</h1>
+    </section>
     <section id="recipe">
       <div class="container">
         <div class="row">
@@ -72,10 +69,7 @@
             <h2 class="p-3">Quick Menu</h2>
             <ul class="nav flex-column">
               <li class="nav-item">
-                <a
-                  class="nav-link"
-                  aria-current="page"
-                  href="recipe-01.html"
+                <a class="nav-link" aria-current="page" href="recipe-01.html"
                   ><span class="material-symbols-outlined">
                     arrow_circle_right
                   </span>
@@ -108,21 +102,21 @@
               </li>
             </ul>
           </aside>
-          <article class="col-7 recipe mt-3">
+          <article class="col-md-7 recipe mt-3" id="recipes-Card">
             <div class="container text-center">
-              <div class="row">
-                <div class="col">
+              <div class="row mt-5">
+                <div class="col-8">
                   <h2 class="h2 section2Color fonts-logo-titles text-start">
                     Lebanese Kibbeh
                   </h2>
                 </div>
 
-                <div class="col">
-                  <div class="d-flex justify-content-start gap-3">
+                <div class="col-4">
+                  <div class="d-flex justify-content-end gap-3">
                     <div class="align-self-stretch">
                       <span class="material-symbols-outlined"> timer </span>
                       <p class="card-text fw-bold" style="font-size: x-small">
-                        30 min
+                        50 min
                       </p>
                     </div>
                     <div class="align-self-stretch">
@@ -132,7 +126,9 @@
                       </p>
                     </div>
                     <div class="align-self-stretch">
-                      <span class="material-symbols-outlined"><a href="#" class="share_card"> share</a></span>
+                      <span class="material-symbols-outlined"
+                        ><a href="#" class="share_card"> share</a></span
+                      >
                       <p class="card-text fw-bold" style="font-size: x-small">
                         share
                       </p>
@@ -148,10 +144,12 @@
               <div class="row">
                 <div class="col">
                   <p
-                    class="card-text text-sm-start section2p mt-5"
+                    class="card-text text-sm-start section2p mt-1"
                     style="font-size: medium"
                   >
-                  These traditional fried Lebanese kibbeh balls are a delicious appetizer made with bulgur wheat and seasoned ground beef and onions filling!
+                    These traditional fried Lebanese kibbeh balls are a
+                    delicious appetizer made with bulgur wheat and seasoned
+                    ground beef and onions filling!
                   </p>
                 </div>
               </div>
@@ -159,7 +157,7 @@
                 <div class="col">
                   <img
                     src="./images/kibbeh.jpg"
-                    class="img-recipe float-start mt-5"
+                    class="img-fluid mt-5"
                   />
                 </div>
               </div>
@@ -178,58 +176,115 @@
                   <table class="table table-striped table-hover">
                     <thead>
                       <tr>
-                        
                         <th scope="col">Kibbeh Mixture</th>
                         <th scope="col">For Filling</th>
                         <th scope="col">For Frying</th>
                       </tr>
                     </thead>
                     <tbody>
-                    <tr>
-                      <td>1 ½ cups bulgur wheat</td>
-                      <td>2 tablespoons olive oil</td>
-                      <td>Vegetable or canola oil for deep frying</td>
-                      
-                    </tr>
-                    <tr>
-                      <td>½ cup water</td>
-                      <td>1 pound 95% lean ground beef</td>
-                      <td></td>
-                    </tr>
-                    <tr>
-                      <td>1 onion quartered</td>
-                      <td>1 large onion diced</td>
-                      <td></td>
-                    </tr>
-                    <tr>
-                      <td>½ cup fresh basil and/or mint</td>
-                      <td>1 tablespoon 7 Spice</td>
-                      <td></td>
-                    </tr>
-                    <tr>
-                      <td>¼ cup kamouneh spice</td>
-                      <td>¼ cup pine nuts</td>
-                      <td></td>
-                    </tr>
-                    <tr>
-                      <td>1 tablespoon + 1 teaspoon salt</td>
-                      <td></td>
-                      <td></td>
-                    </tr>
-                    <tr>
-                      <td>1 pound 100% lean ground beef</td>
-                      <td></td>
-                      <td></td>
-                    </tr>
-                    <tr>
-                      <td>2 teaspoons 7 Spice</td>
-                      <td></td>
-                      <td></td>
-                    </tr>
-                  </tbody>
+                      <tr>
+                        <td>1 ½ cups bulgur wheat</td>
+                        <td>2 tablespoons olive oil</td>
+                        <td>Vegetable or canola oil for deep frying</td>
+                      </tr>
+                      <tr>
+                        <td>½ cup water</td>
+                        <td>1 pound 95% lean ground beef</td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td>1 onion quartered</td>
+                        <td>1 large onion diced</td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td>½ cup fresh basil and/or mint</td>
+                        <td>1 tablespoon 7 Spice</td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td>¼ cup kamouneh spice</td>
+                        <td>¼ cup pine nuts</td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td>1 tablespoon + 1 teaspoon salt</td>
+                        <td></td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td>1 pound 100% lean ground beef</td>
+                        <td></td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td>2 teaspoons 7 Spice</td>
+                        <td></td>
+                        <td></td>
+                      </tr>
+                    </tbody>
                   </table>
                 </div>
               </div>
+            </div>
+
+            <div class="row">
+              <h2 class="h2 section2Color fonts-logo-titles text-start">
+                Instructions
+              </h2>
+              <h3
+                class="section2Color fonts-logo-titles text-center"
+                style="font-size: medium"
+              >
+                Cock the Filling
+              </h3>
+              <ol class="list-group list-group-numbered text-start">
+                <li class="list-group-item">
+                  Cook the onions with olive oil until softened and lightly
+                  golden.
+                </li>
+                <li class="list-group-item">
+                  Add the ground beef and cook with the onions until browned and
+                  cooked through.
+                </li>
+                <li class="list-group-item">
+                  Mix in the spices with the ground beef and onion mixture.
+                </li>
+                <li class="list-group-item">
+                  Fold in the pine nuts, if you’re using them and set this
+                  aside.
+                </li>
+                <img src="./images/filling.jpg" alt="" />
+                <br />
+                <h3
+                  class="section2Color fonts-logo-titles text-center"
+                  style="font-size: medium"
+                >
+                  COMBINE THE KIBBEH MIXTURE
+                </h3>
+              </ol>
+            </div>
+            <div class="row">
+              <ol class="list-group list-group-numbered text-start">
+                <li class="list-group-item">
+                  Place the soaked bulgur, fresh herbs, kamouneh spice and
+                  onions into a food processor.
+                </li>
+                <li class="list-group-item">
+                  Blend until it’s well combined without any large chunks of
+                  onions.
+                </li>
+                <li class="list-group-item">
+                  Add the lean beef to the mixture along with salt and 7 Spice
+                  to season the beef.
+                </li>
+                <li class="list-group-item">
+                  Blend until the beef is well incorporated with the bulgur
+                  mixture. Then remove the food processor blade and divide in
+                  half.
+                </li>
+                <img src="./images/Baked-Kibbeh-Steps1.jpg" alt="" />
+              </ol>
             </div>
           </article>
           <div class="col-2">
@@ -241,11 +296,38 @@
         </div>
       </div>
     </section>
-        </div>
-      </div>
-    </section>
 
-    <footer id="footer"></footer>
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-sm-12 usefull-links">
+            <h3>HUSEFULL LINKS</h3>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact</a>
+          </div>
+    
+          <div class="col-lg-4 col-sm-12">
+            <h3>NEWSLETTER</h3>
+            <form>
+              <input type="email" placeholder="Your Email Address" required>
+              <br>
+              <button type="submit">SUBSCRIBE NOW</button>
+            </form>
+          </div>
+          <div class="col-lg-4 col-sm-12">
+            <h3>CONTACT</h3>
+            <p>123, XYZ Road, BBS 3<br>Berlin, Berlin, DE</p>
+            <div class= "social-icons">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-instagram"></i>
+            <div>
+            </div>
+        </div>
+      </div> 
+    </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
